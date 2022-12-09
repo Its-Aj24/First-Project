@@ -1,0 +1,17 @@
+.header
+{
+    display: flex;
+    justify-content: center;
+}
+.ajay
+{
+    display:flex;
+    justify-content: center;
+}
+.karan
+{
+    width: 100%;
+    height: 91vh;
+    background: url("../../assets/karan.jpg");
+    background-size: cover;
+}

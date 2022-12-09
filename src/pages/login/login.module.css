@@ -1,0 +1,77 @@
+.my_main
+{
+    background:-webkit-linear-gradient(bottom,#9ff,#6666);;
+    background-size: cover;
+    padding: 50px 0;
+}
+.my_user
+{
+   
+    width: 36%;
+    height:63vh;
+    background: -webkit-linear-gradient(top,#7579ff,#b224ef);
+    letter-spacing: 1px;
+    margin: 0 32%;
+    font-weight: bold;
+    border-radius: 10px;
+    padding:10px 90px;
+}
+input
+{
+    padding: 3px 10px;
+    border: none;
+    border-radius: 5px;
+}
+button
+{
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin: 10px;
+    
+}
+.my_icon
+{
+    position:relative;
+    left: 242px;
+    top: -25px;
+}
+.user_icon
+{
+    position:relative;
+    left: 25px;
+    top: -3px;
+    color:cadetblue
+
+}
+.my_input
+{
+    padding: 0 35px !important;
+}
+.form_label
+{
+    margin-left:15px;
+}
+.my_forgot
+{
+    display: flex;
+    justify-content: space-between;
+}
+.my_font
+{
+    font-size: small;
+    color: black;
+    text-decoration: none;
+}
+.my_logo
+ {
+    display: flex;
+    justify-content: center;
+}
+    .my_logo img
+    {
+        
+       
+        width:60px;
+    }

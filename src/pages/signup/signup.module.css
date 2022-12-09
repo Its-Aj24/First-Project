@@ -1,0 +1,26 @@
+.my_main
+{
+    background:url("../../assets/pexel.jpg");
+    background-size: cover;
+}
+.my_user
+{
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding-left: 600px;
+}
+input
+{
+    padding: 3px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+button
+{
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin: 10px;
+    
+}
