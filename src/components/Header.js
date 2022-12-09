@@ -9,7 +9,7 @@ function Header() {
     <div className={stylesheet.head}>
         <div className={stylesheet.logo}>
             {/* <img src={logo} alt="Image can not found" /> */}
-            <h1>A&K CONSULTING</h1>
+            <h1>Learnig React</h1>
         </div>
         <div className={stylesheet.menu}>
             <ul>
