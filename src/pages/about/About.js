@@ -1,12 +1,24 @@
-import React from "react";
+import React, { useState, createContext } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import image_logo from '../../assets/img-1.jpg';
 import image_logo1 from '../../assets/img-2.jpg';
 import image_logo2 from '../../assets/img-3.jpg';
+import A1 from "./A1";
 
+const HobbyContext = createContext();
 const About = () => {
+ 
+  const [second, setSecond] = useState(
+    {
+      hobby:"",
+      degree:"",
+      vehicle:"",
+    }
+  )
+     
+ 
   return (
-    <>
+    <HobbyContext.Provider value={second}>
       <Carousel>
         <Carousel.Item>
           <img src={image_logo}
@@ -43,7 +55,8 @@ const About = () => {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-    </>
+      <A1 />
+    </HobbyContext.Provider>
   );
 };
 
