@@ -7,6 +7,7 @@ import { Button } from "react-bootstrap";
 
 const Login = () => {
   const [ptype, setPtype] = useState("password");
+  
   const [user, setUser] = useState({
     email: "",
     password: "",
