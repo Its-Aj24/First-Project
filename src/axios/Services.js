@@ -16,3 +16,13 @@ export const get_detail = async () => {
       });
   };
   
+  export const login = async (email,password) => {
+    return axios
+      .post('http://104.238.184.214:3000/admin/login',{
+       
+      })
+      .then((response) => {
+        return response;
+      });
+  };
+  
